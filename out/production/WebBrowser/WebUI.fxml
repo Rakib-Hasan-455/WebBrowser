@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WebController">
+   <children>
+      <WebView fx:id="webView" layoutY="30.0" prefHeight="770.0" prefWidth="1000.0" />
+      <Label layoutX="71.0" layoutY="6.0" prefHeight="17.0" prefWidth="202.0" text="Simple Brower" />
+   </children>
+</AnchorPane>
